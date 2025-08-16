@@ -7,7 +7,7 @@ const Navbar = () => {
     const deskTopMenu = <>
         <Link href={'/'}>Home</Link>
         <Link href={'components/pages/addExpense'}>Add Expense</Link>
-        <Link href={'/pages/admissionPage'}>Admission</Link>
+        <Link href={'/'}>About</Link>
     </>
 
 
@@ -24,7 +24,9 @@ const Navbar = () => {
                         {deskTopMenu}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl">Think</a>
+                <a>
+                    <img className='w-[50px] h-[50px] rounded-full border' src={'/navLogo.png'} alt="" />
+                </a>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 flex items-center gap-8 text-[17px]">
