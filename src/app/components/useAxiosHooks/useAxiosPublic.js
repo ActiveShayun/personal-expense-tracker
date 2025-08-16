@@ -2,7 +2,7 @@
 
 import axios from "axios"
 const instant = axios.create({
-    baseURL: 'https://personal-expense-tracker-4i3zkj2wa-apu-roys-projects.vercel.app'
+    baseURL: 'https://personal-expense-tracker-sigma-six.vercel.app'
 })
 
 export const useAxiosPublic = () => {
