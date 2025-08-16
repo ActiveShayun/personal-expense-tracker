@@ -1,10 +1,11 @@
 import Image from "next/image";
+import AllExpensePage from "./components/allExpense/page";
 
 export default function Home() {
   return (
     <div>
       <main>
-        text
+        <AllExpensePage />
       </main>
     </div>
   );
