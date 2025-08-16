@@ -2,7 +2,7 @@
 
 import axios from "axios"
 const instant = axios.create({
-    baseURL: 'https://personal-expense-tracker-sigma-six.vercel.app'
+    baseURL: process.env.NEXT_URL || 'http://192.168.0.104:3000'
 })
 
 export const useAxiosPublic = () => {
